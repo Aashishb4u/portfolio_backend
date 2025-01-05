@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_shared_blog_seo_components",
+  "info": {
+    "displayName": "Blog SEO Component",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogDescription": {
+      "type": "text"
+    },
+    "ogImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "componentName": {
+      "type": "string"
+    }
+  }
+}
