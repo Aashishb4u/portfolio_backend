@@ -561,6 +561,7 @@ export interface ApiProjectProject extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     name: Schema.Attribute.Text;
     publishedAt: Schema.Attribute.DateTime;
+    sequence: Schema.Attribute.Integer & Schema.Attribute.Unique;
     siteLink: Schema.Attribute.Text;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
